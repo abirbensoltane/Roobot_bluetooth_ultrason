@@ -1,5 +1,5 @@
 # Roobot_bluetooth_ultrason
- A robot that can be controlled with this Android application https://play.google.com/store/apps/details?id=com.giumig.apps.bluetoothserialmonitor via bluetooth and can stop automatically when there is an obstacle and a  buzzer is triggered and an LED lights up
+ A robot that can be controlled with this Android application https://play.google.com/store/apps/details?id=com.giumig.apps.bluetoothserialmonitor via bluetooth and can stop automatically when there is an obstacle and a  buzzer is triggered with a LED lights up
 
 materials: Arduino Uno , Pont H L298N ,Ultrason ,Bluetooth HC-05, led , buzzer
 
