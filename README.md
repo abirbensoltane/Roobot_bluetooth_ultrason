@@ -6,7 +6,7 @@ materials: Arduino Uno , Pont H L298N ,Ultrason ,Bluetooth HC-05
 Wiring:
 
 Bluetooth                 Arduino \
-TX                           10\
+TX             {sp} +              10\
 RX                           11
 
 
