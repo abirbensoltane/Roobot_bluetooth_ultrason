@@ -3,11 +3,13 @@
 
 materials: Arduino Uno , Pont H L298N ,Ultrason ,Bluetooth HC-05
 
-Wiring:\
+Wiring:
 
 Bluetooth         Arduino\
 TX                10\
-RX                11\
+RX                11
+
+
 
 
 Pont H            Arduino \    
@@ -16,9 +18,12 @@ Pont H            Arduino \
   IN4                4    \
   IN3                5    \
   IN2                6    \
-  IN1                7   \
+  IN1                7   
+  
+  
+  
   
   Ultrason        Arduino 
 
  Trigger            12   \
- Echo               13   \
+ Echo               13   
