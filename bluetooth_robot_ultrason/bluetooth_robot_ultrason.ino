@@ -4,8 +4,10 @@ int ENA =9;
 int ENB = 3;
 int IN4 = 4;
 int IN3 = 5;
-int IN2 = 6;
+int IN2 = 2;
 int IN1 = 7;
+int led =1;
+int buzz=6;
 int trigPin = 12;    // Trigger
 int echoPin = 13;    // Echo
 long duration, cm;
@@ -65,6 +67,12 @@ Left();
  
  }else if(cm<10){
     Stop();
+    digitalWrite(led,HIGH);
+    
+    tone(buzz, 450);
+    delay(100);
+   noTone(buzz);
+   digitalWrite(led, LOW);
   }
 
 }
@@ -98,4 +106,3 @@ void Stop(){
   digitalWrite(IN3, LOW);
   digitalWrite(IN4, LOW);
 }
-
